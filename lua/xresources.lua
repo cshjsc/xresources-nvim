@@ -214,7 +214,7 @@ function xresources.load_syntax()
       EndOfBuffer = {fg=xresources.bg,bg=xresources.none};
       ErrorMsg = {fg=xresources.red,bg=xresources.none,style='bold'};
       FoldColumn = {fg=xresources.fg,bg=xresources.bg};
-      Folded = {fg=xresources.grey,bg=xresources.grey};
+      Folded = {fg=xresources.white,bg=xresources.grey};
       iCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
       IncSearch = {fg=xresources.gray,bg=xresources.yellow,style=xresources.none};
       lCursor = {fg=xresources.none,bg=xresources.none,style='reverse'};
@@ -222,7 +222,7 @@ function xresources.load_syntax()
       ModeMsg = {fg=xresources.fg,bg=xresources.none,style='bold'};
       MatchParen = {fg=xresources.red,bg=xresources.none};
       Normal = {fg = xresources.fg,bg=xresources.bg};
-      NormalFloat = {fg=xresources.grey,bg=xresources.grey};
+      NormalFloat = {fg=xresources.white,bg=xresources.grey};
       NonText = {fg=xresources.gray};
       Pmenu = {fg=xresources.fg,bg=xresources.grey};
       PmenuSel = {fg=xresources.grey,bg=xresources.blue};
@@ -231,8 +231,8 @@ function xresources.load_syntax()
       PmenuThumb = {fg=xresources.purple,bg=xresources.green};
       Question = {fg=xresources.yellow};
       QuickFixLine = {fg=xresources.purple,style='bold'};
-      StatusLine = {fg=xresources.grey,bg=xresources.grey,style=xresources.none};
-      StatusLineNC = {fg=xresources.grey,bg=xresources.grey,style=xresources.none};
+      StatusLine = {fg=xresources.white,bg=xresources.grey,style=xresources.none};
+      StatusLineNC = {fg=xresources.white,bg=xresources.grey,style=xresources.none};
       SpellBad = {fg=xresources.red,bg=xresources.none,style='undercurl'};
       SpellCap = {fg=xresources.blue,bg=xresources.none,style='undercurl'};
       SpellLocal = {fg=xresources.cyan,bg=xresources.none,style='undercurl'};
